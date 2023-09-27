@@ -9,6 +9,7 @@ const TRACKS_FUSE = new Fuse(
     keys: ["title", "titleLetters"],
     includeMatches: true,
     ignoreFieldNorm: true,
+    threshold: 1,
   },
   Fuse.parseIndex(TRACK_INDEX),
 )
@@ -75,22 +76,55 @@ function Match({ match }: { match: FuseResult }) {
     })
   }
 
+  // build title
+  let largeTitleParts = []
+  let smallTitleParts = []
+  let small = false
+  match.item.title.split("").forEach((letter, i) => {
+    const elem = (
+      <span
+        class={highlightIndices[i] ? "font-bold" : "text-neutral-400"}
+        key={i}
+      >
+        {letter}
+      </span>
+    )
+    if (letter === "-" || letter === "(") small = true
+    if (small) {
+      smallTitleParts.push(elem)
+    } else {
+      largeTitleParts.push(elem)
+    }
+  })
+
   const titleElement = (
-    <div class="font-slab text-2xl">
-      {match.item.title.split("").map((letter, i) => (
-        <span
-          class={highlightIndices[i] ? "font-bold" : "text-neutral-400"}
-          key={i}
-        >
-          {letter}
-        </span>
-      ))}
+    <div class="font-slab">
+      <div class="text-2xl">{largeTitleParts}</div>
+      {smallTitleParts.length > 0 && (
+        <div class="text-sm">{smallTitleParts}</div>
+      )}
     </div>
   )
 
+  const imgUrl = new URL(
+    `./img/albumart/${match.item.albumId}.jpg`,
+    import.meta.url,
+  ).href
+  console.log(
+    import.meta.url,
+    `./img/albumart/${match.item.albumId}.jpg`,
+    imgUrl,
+  )
+
   return (
-    <div class="mx-auto mt-4 max-w-xl text-left">
-      <div class="font-slab text-xl">{titleElement}</div>
+    <div class="mx-auto mt-6 max-w-xl text-left">
+      <div class="grid grid-cols-[4rem_1fr] gap-4">
+        <div>
+          <img src={imgUrl} alt="" class="h-16 w-16" />
+        </div>
+        <div class="font-slab text-xl">{titleElement}</div>
+      </div>
+
       {MATCH_DEBUG && (
         <span>
           {JSON.stringify(
@@ -114,7 +148,7 @@ export function App() {
       <h1 class="mt-5 text-[max(min(4rem,6vw),2.5rem)] font-medium leading-[1.2] sm:mt-10">
         Taylor&nbsp;Swift Bracelet&nbsp;Decoder
       </h1>
-      <div class="font-slab mt-2 text-[max(min(2.5rem,4vw),1.5rem)] font-medium uppercase tracking-wider sm:mt-4">
+      <div class="mt-2 font-slab text-[max(min(2.5rem,4vw),1.5rem)] font-medium uppercase tracking-wider sm:mt-4">
         <GlitterLetters text="hey kids, spelling is fun!" />
       </div>
       <div class="mx-auto mt-8 max-w-lg p-2 sm:mt-10">
@@ -127,7 +161,7 @@ export function App() {
             autofocus
             spellcheck={false}
             enterkeyhint="done"
-            class="font-slab animate-glitter-bg-slow w-full appearance-none rounded-2xl border-4 p-4 text-2xl uppercase tracking-widest focus:outline-none"
+            class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
             onInput={e => setMatches(findMatches(e.currentTarget.value))}
             onKeyUp={e => e.key === "Enter" && e.currentTarget.blur()}
           />

@@ -1,6 +1,7 @@
 [
   {
     "name": "Taylor Swift",
+    "id": "debut",
     "tracks": [
       "Tim McGraw",
       "Picture To Burn",
@@ -20,10 +21,12 @@
   },
   {
     "name": "Live From Clear Channel Stripped 2008",
+    "id": "live-from-clear-channel-stripped-2008",
     "tracks": ["Beautiful Eyes - Live From Clear Channel Stripped 2008"]
   },
   {
     "name": "The Taylor Swift Holiday Collection",
+    "id": "the-taylor-swift-holiday-collection",
     "tracks": [
       "Last Christmas",
       "Christmases When You Were Mine",
@@ -35,14 +38,17 @@
   },
   {
     "name": "Speak Now",
+    "id": "speak-now",
     "tracks": ["Better Than Revenge"]
   },
   {
     "name": "Sweeter Than Fiction",
+    "id": "sweeter-than-fiction",
     "tracks": ["Sweeter Than Fiction - From \"One Chance\" Soundtrack"]
   },
   {
     "name": "1989",
+    "id": "1989",
     "tracks": [
       "Welcome To New York",
       "Blank Space",
@@ -59,14 +65,17 @@
   },
   {
     "name": "Bad Blood",
+    "id": "bad-blood-kendrick-lamar",
     "tracks": ["Bad Blood (feat. Kendrick Lamar)"]
   },
   {
     "name": "reputation Stadium Tour Surprise Song Playlist",
+    "id": "reputation-stadium-tour-surprise-song-playlist",
     "tracks": ["I Don\u2019t Wanna Live Forever (Fifty Shades Darker)"]
   },
   {
     "name": "reputation",
+    "id": "reputation",
     "tracks": [
       "...Ready For It?",
       "End Game",
@@ -87,10 +96,12 @@
   },
   {
     "name": "Spotify Singles",
+    "id": "spotify-singles",
     "tracks": ["September - Recorded at The Tracking Room Nashville"]
   },
   {
     "name": "Lover",
+    "id": "lover",
     "tracks": [
       "I Forgot That You Existed",
       "Cruel Summer",
@@ -113,7 +124,13 @@
     ]
   },
   {
+    "name": "Only The Young (Featured in Miss Americana)",
+    "id": "only-the-young",
+    "tracks": ["Only The Young - Featured in Miss Americana"]
+  },
+  {
     "name": "folklore",
+    "id": "folklore",
     "tracks": [
       "the 1",
       "cardigan",
@@ -135,10 +152,12 @@
   },
   {
     "name": "folklore (deluxe version)",
+    "id": "folklore-deluxe",
     "tracks": ["the lakes"]
   },
   {
     "name": "evermore",
+    "id": "evermore",
     "tracks": [
       "willow",
       "champagne problems",
@@ -159,10 +178,17 @@
   },
   {
     "name": "evermore (deluxe version)",
+    "id": "evermore-deluxe",
     "tracks": ["right where you left me", "it\u2019s time to go"]
   },
   {
+    "name": "Christmas Tree Farm",
+    "id": "christmas-tree-farm",
+    "tracks": ["Christmas Tree Farm"]
+  },
+  {
     "name": "Fearless (Taylor's Version)",
+    "id": "fearless-tv",
     "tracks": [
       "Fearless (Taylor\u2019s Version)",
       "Fifteen (Taylor\u2019s Version)",
@@ -194,24 +220,29 @@
   },
   {
     "name": "How Long Do You Think It's Gonna Last?",
+    "id": "how-long-do-you-think-its-gonna-last",
     "tracks": ["Birch", "Renegade"]
   },
   {
     "name": "Wildest Dreams (Taylor's Version)",
+    "id": "wildest-dreams-tv",
     "tracks": ["Wildest Dreams (Taylor's Version)"]
   },
   {
     "name": "Eyes Open (Taylor's Version)",
+    "id": "eyes-open-tv",
     "tracks": ["Eyes Open (Taylor's Version)"]
   },
   {
     "name": "Safe & Sound (Taylor's Version)",
+    "id": "safe-and-sound-tv",
     "tracks": [
       "Safe & Sound (feat. Joy Williams and John Paul White) (Taylor\u2019s Version)"
     ]
   },
   {
     "name": "Red (Taylor's Version)",
+    "id": "red-tv",
     "tracks": [
       "State Of Grace (Taylor's Version)",
       "Red (Taylor's Version)",
@@ -247,34 +278,41 @@
   },
   {
     "name": "All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios",
+    "id": "atw-sgav",
     "tracks": [
       "All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios"
     ]
   },
   {
     "name": "Christmas Tree Farm (Old Timey Version)",
+    "id": "christmas-tree-farm-otv",
     "tracks": ["Christmas Tree Farm (Old Timey Version)"]
   },
   {
     "name": "The Joker And The Queen (feat. Taylor Swift)",
+    "id": "the-joker-and-the-queen",
     "tracks": ["The Joker And The Queen (feat. Taylor Swift)"]
   },
   {
     "name": "This Love (Taylor\u2019s Version)",
+    "id": "this-love-tv",
     "tracks": ["This Love (Taylor\u2019s Version)"]
   },
   {
     "name": "All Too Well (10 Minute Version) (The Short Film)",
+    "id": "atv-tmvtsf",
     "tracks": ["All Too Well (10 Minute Version) (The Short Film)"]
   },
   {
     "name": "Carolina (From The Motion Picture \u201cWhere The Crawdads Sing\u201d)",
+    "id": "carolina",
     "tracks": [
       "Carolina - From The Motion Picture \u201cWhere The Crawdads Sing\u201d"
     ]
   },
   {
     "name": "Midnights",
+    "id": "midnights",
     "tracks": [
       "Lavender Haze",
       "Maroon",
@@ -293,6 +331,7 @@
   },
   {
     "name": "Midnights (3am Edition)",
+    "id": "midnights-3am",
     "tracks": [
       "The Great War",
       "Bigger Than The Whole Sky",
@@ -305,18 +344,22 @@
   },
   {
     "name": "Anti-Hero (feat. Bleachers)",
+    "id": "anti-hero-bleachers",
     "tracks": ["Anti-Hero (feat. Bleachers)"]
   },
   {
-    "name": "The Alcott (feat. Taylor Swift)",
+    "name": "First Two Pages of Frankenstein",
+    "id": "first-two-pages-of-frankenstein",
     "tracks": ["The Alcott (feat. Taylor Swift)"]
   },
   {
     "name": "Midnights (The Til Dawn Edition)",
+    "id": "midnights-til-dawn",
     "tracks": ["Hits Different", "Karma (feat. Ice Spice)"]
   },
   {
     "name": "Speak Now (Taylor's Version)",
+    "id": "speak-now-tv",
     "tracks": [
       "Mine (Taylor's Version)",
       "Sparks Fly (Taylor\u2019s Version)",

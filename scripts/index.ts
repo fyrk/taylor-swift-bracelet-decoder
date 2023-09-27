@@ -74,7 +74,7 @@ const TRACKS = _TRACKS_BY_ALBUM
         title,
         titleLetters,
         titleLettersIndices,
-        album: album.name,
+        albumId: album.id,
       }
     }),
   )
