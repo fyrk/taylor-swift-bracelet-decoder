@@ -8,8 +8,8 @@ const TRACKS_FUSE = new Fuse(
   {
     keys: ["title", "titleLetters"],
     includeMatches: true,
+    includeScore: true,
     ignoreFieldNorm: true,
-    threshold: 1,
   },
   Fuse.parseIndex(TRACK_INDEX),
 )
@@ -62,10 +62,23 @@ function Match({ match }: { match: FuseResult }) {
       ? titleLettersMatches[0].indices.reduce((p, [s, e]) => p + (e - s + 1), 0)
       : 0
 
-  if (titleLettersMatchLetterCount >= titleMatchLetterCount) {
+  if (
+    titleLettersMatchLetterCount >= titleMatchLetterCount ||
+    (titleMatches.length > 0 &&
+      titleMatches[0].indices.length > 1 &&
+      titleLettersMatches.length > 0 &&
+      titleLettersMatches[0].indices.length <= 3)
+  ) {
     titleLettersMatches[0].indices.forEach(([start, end]) => {
       for (let i = start; i <= end; i++) {
-        highlightIndices[match.item.titleLettersIndices[i]] = true
+        let indices = match.item.titleLettersIndices[i]
+        if (typeof indices === "number") {
+          highlightIndices[indices] = true
+        } else {
+          indices.forEach((index: number) => {
+            highlightIndices[index] = true
+          })
+        }
       }
     })
   } else {
@@ -89,7 +102,8 @@ function Match({ match }: { match: FuseResult }) {
         {letter}
       </span>
     )
-    if (letter === "-" || letter === "(") small = true
+    if ((letter === "-" && match.item.title[i - 1] === " ") || letter === "(")
+      small = true
     if (small) {
       smallTitleParts.push(elem)
     } else {
@@ -99,6 +113,7 @@ function Match({ match }: { match: FuseResult }) {
 
   const titleElement = (
     <div class="font-slab">
+      {MATCH_DEBUG && match.score}
       <div class="text-2xl">{largeTitleParts}</div>
       {smallTitleParts.length > 0 && (
         <div class="text-sm">{smallTitleParts}</div>

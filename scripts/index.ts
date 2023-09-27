@@ -15,7 +15,9 @@ function isUpperCase(string: string) {
   return string === string.toUpperCase() && string !== string.toLowerCase()
 }
 
-function getLetters(string: string): [string, number[]] | [null, null] {
+function getLetters(
+  string: string,
+): [string, Array<number | number[]>] | [null, null] {
   let letters = ""
   const indices = []
 
@@ -27,7 +29,8 @@ function getLetters(string: string): [string, number[]] | [null, null] {
     } else if (letter === "0" && prev === "1") {
       // ATW*T*MV
       letters += "T"
-      indices.push(i)
+      indices.push([i - 1, i])
+      console.log([i - 1, i])
     } else if (
       isAlpha(letter) &&
       (prev == null ||
@@ -48,8 +51,6 @@ const TRACKS = _TRACKS_BY_ALBUM
   .map(album =>
     album.tracks.map(title => {
       const [name, ...suffixes] = title.split(/([(-])/)
-      console.log(name, suffixes)
-
       let [titleLetters, titleLettersIndices] = getLetters(name)
       if (titleLetters != null) {
         let indexOffset = name.length
@@ -63,7 +64,11 @@ const TRACKS = _TRACKS_BY_ALBUM
             if (suffixLetters != null) {
               titleLetters += suffixLetters
               titleLettersIndices.push(
-                ...suffixLettersIndices.map(i => i + indexOffset),
+                ...suffixLettersIndices.map(i =>
+                  typeof i === "number"
+                    ? i + indexOffset
+                    : i.map(j => j + indexOffset),
+                ),
               )
             }
             indexOffset += suffix.length

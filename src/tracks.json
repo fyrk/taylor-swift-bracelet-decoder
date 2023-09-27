@@ -1,1350 +1,465 @@
 [
   {
-    "title": "Tim McGraw",
-    "titleLetters": "TMG",
-    "titleLettersIndices": [
-      0,
-      4,
-      6
-    ],
-    "albumId": "debut"
+    "title": "Mine (Taylor's Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "Picture To Burn",
-    "titleLetters": "PTB",
+    "title": "Sparks Fly (Taylor’s Version)",
+    "titleLetters": "SFTV",
     "titleLettersIndices": [
       0,
-      8,
-      11
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Teardrops On My Guitar",
-    "titleLetters": "TOMG",
-    "titleLettersIndices": [
-      0,
-      10,
-      13,
-      16
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "A Place in this World",
-    "titleLetters": "APitW",
-    "titleLettersIndices": [
-      0,
-      2,
-      8,
-      11,
-      16
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Cold As You",
-    "titleLetters": "CAY",
-    "titleLettersIndices": [
-      0,
-      5,
-      8
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "The Outside",
-    "titleLetters": "TO",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Tied Together with a Smile",
-    "titleLetters": "TTwaS",
-    "titleLettersIndices": [
-      0,
-      5,
-      14,
-      19,
+      7,
+      12,
       21
     ],
-    "albumId": "debut"
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "Stay Beautiful",
-    "titleLetters": "SB",
+    "title": "Back To December (Taylor's Version)",
+    "titleLetters": "BTDTV",
     "titleLettersIndices": [
       0,
-      5
+      5,
+      8,
+      18,
+      27
     ],
-    "albumId": "debut"
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "Should've Said No",
-    "titleLetters": "SSN",
+    "title": "Speak Now (Taylor's Version)",
+    "titleLetters": "SNTV",
     "titleLettersIndices": [
       0,
+      6,
+      11,
+      20
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Dear John (Taylor's Version)",
+    "titleLetters": "DJTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      11,
+      20
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Mean (Taylor's Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "The Story Of Us (Taylor's Version)",
+    "titleLetters": "TSOUTV",
+    "titleLettersIndices": [
+      0,
+      4,
       10,
-      15
+      13,
+      17,
+      26
     ],
-    "albumId": "debut"
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "Mary's Song (Oh My My My)",
-    "titleLetters": "MSOMMM",
+    "title": "Never Grow Up (Taylor's Version)",
+    "titleLetters": "NGUTV",
+    "titleLettersIndices": [
+      0,
+      6,
+      11,
+      15,
+      24
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Enchanted (Taylor's Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Better Than Revenge (Taylor's Version)",
+    "titleLetters": "BTRTV",
     "titleLettersIndices": [
       0,
       7,
-      13,
+      12,
+      21,
+      30
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Innocent (Taylor's Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Haunted (Taylor's Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Last Kiss (Taylor's Version)",
+    "titleLetters": "LKTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      11,
+      20
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Long Live (Taylor's Version)",
+    "titleLetters": "LLTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      11,
+      20
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Ours (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Superman (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From The Vault)",
+    "titleLetters": "ETTVFTV",
+    "titleLettersIndices": [
+      0,
+      9,
+      37,
+      46,
+      56,
+      61,
+      65
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "When Emma Falls in Love (Taylor’s Version) (From The Vault)",
+    "titleLetters": "WEFiLTVFTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      10,
       16,
       19,
-      22
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Our Song",
-    "titleLetters": "OS",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "I'm Only Me When I'm With You",
-    "titleLetters": "IOMWIWY",
-    "titleLettersIndices": [
-      0,
-      4,
-      9,
-      12,
-      17,
-      21,
-      26
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Invisible",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "debut"
-  },
-  {
-    "title": "A Perfectly Good Heart",
-    "titleLetters": "APGH",
-    "titleLettersIndices": [
-      0,
-      2,
-      12,
-      17
-    ],
-    "albumId": "debut"
-  },
-  {
-    "title": "Beautiful Eyes - Live From Clear Channel Stripped 2008",
-    "titleLetters": "BELFCCS",
-    "titleLettersIndices": [
-      0,
-      10,
-      17,
-      22,
-      27,
-      33,
-      41
-    ],
-    "albumId": "live-from-clear-channel-stripped-2008"
-  },
-  {
-    "title": "Last Christmas",
-    "titleLetters": "LC",
-    "titleLettersIndices": [
-      0,
-      5
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "Christmases When You Were Mine",
-    "titleLetters": "CWYWM",
-    "titleLettersIndices": [
-      0,
-      12,
-      17,
-      21,
-      26
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "Santa Baby",
-    "titleLetters": "SB",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "Silent Night",
-    "titleLetters": "SN",
-    "titleLettersIndices": [
-      0,
-      7
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "Christmas Must Be Something More",
-    "titleLetters": "CMBSM",
-    "titleLettersIndices": [
-      0,
-      10,
-      15,
-      18,
-      28
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "White Christmas",
-    "titleLetters": "WC",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "the-taylor-swift-holiday-collection"
-  },
-  {
-    "title": "Better Than Revenge",
-    "titleLetters": "BTR",
-    "titleLettersIndices": [
-      0,
-      7,
-      12
-    ],
-    "albumId": "speak-now"
-  },
-  {
-    "title": "Sweeter Than Fiction - From \"One Chance\" Soundtrack",
-    "titleLetters": "STFFOCS",
-    "titleLettersIndices": [
-      0,
-      8,
-      13,
-      23,
-      29,
-      33,
-      41
-    ],
-    "albumId": "sweeter-than-fiction"
-  },
-  {
-    "title": "Welcome To New York",
-    "titleLetters": "WTNY",
-    "titleLettersIndices": [
-      0,
-      8,
-      11,
-      15
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "Blank Space",
-    "titleLetters": "BS",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "Style",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "1989"
-  },
-  {
-    "title": "Out Of The Woods",
-    "titleLetters": "OOTW",
-    "titleLettersIndices": [
-      0,
-      4,
-      7,
-      11
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "All You Had To Do Was Stay",
-    "titleLetters": "AYHTDWS",
-    "titleLettersIndices": [
-      0,
-      4,
-      8,
-      12,
-      15,
-      18,
-      22
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "Shake It Off",
-    "titleLetters": "SIO",
-    "titleLettersIndices": [
-      0,
-      6,
-      9
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "I Wish You Would",
-    "titleLetters": "IWYW",
-    "titleLettersIndices": [
-      0,
-      2,
-      7,
-      11
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "Bad Blood",
-    "titleLetters": "BB",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "How You Get The Girl",
-    "titleLetters": "HYGTG",
-    "titleLettersIndices": [
-      0,
-      4,
-      8,
-      12,
-      16
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "I Know Places",
-    "titleLetters": "IKP",
-    "titleLettersIndices": [
-      0,
-      2,
-      7
-    ],
-    "albumId": "1989"
-  },
-  {
-    "title": "Clean",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "1989"
-  },
-  {
-    "title": "Bad Blood (feat. Kendrick Lamar)",
-    "titleLetters": "BB",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "bad-blood-kendrick-lamar"
-  },
-  {
-    "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-    "titleLetters": "IDWLFFSD",
-    "titleLettersIndices": [
-      0,
-      2,
-      8,
-      14,
-      19,
-      28,
+      25,
       34,
+      44,
+      49,
+      53
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "I Can See You (Taylor’s Version) (From The Vault)",
+    "titleLetters": "ICSYTVFTV",
+    "titleLettersIndices": [
+      0,
+      2,
+      6,
+      10,
+      15,
+      24,
+      34,
+      39,
+      43
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Castles Crumbling (feat. Hayley Williams) (Taylor’s Version) (From The Vault)",
+    "titleLetters": "CCTVFTV",
+    "titleLettersIndices": [
+      0,
+      8,
+      43,
+      52,
+      62,
+      67,
+      71
+    ],
+    "albumId": "speak-now-tv"
+  },
+  {
+    "title": "Foolish One (Taylor’s Version) (From The Vault)",
+    "titleLetters": "FOTVFTV",
+    "titleLettersIndices": [
+      0,
+      8,
+      13,
+      22,
+      32,
+      37,
       41
     ],
-    "albumId": "reputation-stadium-tour-surprise-song-playlist"
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "...Ready For It?",
-    "titleLetters": "RFI",
-    "titleLettersIndices": [
-      3,
-      9,
-      13
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "End Game",
-    "titleLetters": "EG",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "I Did Something Bad",
-    "titleLetters": "IDSB",
-    "titleLettersIndices": [
-      0,
-      2,
-      6,
-      16
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Don’t Blame Me",
-    "titleLetters": "DBM",
-    "titleLettersIndices": [
-      0,
-      6,
-      12
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Delicate",
+    "title": "Timeless (Taylor’s Version) (From The Vault)",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "reputation"
+    "albumId": "speak-now-tv"
   },
   {
-    "title": "Look What You Made Me Do",
-    "titleLetters": "LWYMMD",
-    "titleLettersIndices": [
-      0,
-      5,
-      10,
-      14,
-      19,
-      22
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "So It Goes...",
-    "titleLetters": "SIG",
-    "titleLettersIndices": [
-      0,
-      3,
-      6
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Gorgeous",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "reputation"
-  },
-  {
-    "title": "Getaway Car",
-    "titleLetters": "GC",
-    "titleLettersIndices": [
-      0,
-      8
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "King Of My Heart",
-    "titleLetters": "KOMH",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      11
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Dancing With Our Hands Tied",
-    "titleLetters": "DWOHT",
-    "titleLettersIndices": [
-      0,
-      8,
-      13,
-      17,
-      23
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Dress",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "reputation"
-  },
-  {
-    "title": "This Is Why We Can't Have Nice Things",
-    "titleLetters": "TIWWCHNT",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      12,
-      15,
-      21,
-      26,
-      31
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "Call It What You Want",
-    "titleLetters": "CIWYW",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      13,
-      17
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "New Year’s Day",
-    "titleLetters": "NYD",
-    "titleLettersIndices": [
-      0,
-      4,
-      11
-    ],
-    "albumId": "reputation"
-  },
-  {
-    "title": "September - Recorded at The Tracking Room Nashville",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "spotify-singles"
-  },
-  {
-    "title": "I Forgot That You Existed",
-    "titleLetters": "IFTYE",
-    "titleLettersIndices": [
-      0,
-      2,
-      9,
-      14,
-      18
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Cruel Summer",
-    "titleLetters": "CS",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Lover",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "lover"
-  },
-  {
-    "title": "The Man",
-    "titleLetters": "TM",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "The Archer",
+    "title": "The Alcott (feat. Taylor Swift)",
     "titleLetters": "TA",
     "titleLettersIndices": [
       0,
       4
     ],
-    "albumId": "lover"
+    "albumId": "first-two-pages-of-frankenstein"
   },
   {
-    "title": "I Think He Knows",
-    "titleLetters": "ITHK",
-    "titleLettersIndices": [
-      0,
-      2,
-      8,
-      11
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Miss Americana & The Heartbreak Prince",
-    "titleLetters": "MAATHP",
-    "titleLettersIndices": [
-      0,
-      5,
-      15,
-      17,
-      21,
-      32
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Paper Rings",
-    "titleLetters": "PR",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Cornelia Street",
-    "titleLetters": "CS",
+    "title": "Lavender Haze",
+    "titleLetters": "LH",
     "titleLettersIndices": [
       0,
       9
     ],
-    "albumId": "lover"
+    "albumId": "midnights"
   },
   {
-    "title": "Death By A Thousand Cuts",
-    "titleLetters": "DBATC",
-    "titleLettersIndices": [
-      0,
-      6,
-      9,
-      11,
-      20
-    ],
-    "albumId": "lover"
+    "title": "Maroon",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "midnights"
   },
   {
-    "title": "London Boy",
-    "titleLetters": "LB",
-    "titleLettersIndices": [
-      0,
-      7
-    ],
-    "albumId": "lover"
+    "title": "Anti-Hero",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "midnights"
   },
   {
-    "title": "Soon You’ll Get Better (feat. The Chicks)",
-    "titleLetters": "SYGB",
+    "title": "Snow On The Beach (feat. Lana Del Rey)",
+    "titleLetters": "SOTB",
     "titleLettersIndices": [
       0,
       5,
-      12,
-      16
+      8,
+      12
     ],
-    "albumId": "lover"
+    "albumId": "midnights"
   },
   {
-    "title": "False God",
-    "titleLetters": "FG",
+    "title": "You're On Your Own, Kid",
+    "titleLetters": "YOYOK",
     "titleLettersIndices": [
       0,
-      6
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "You Need To Calm Down",
-    "titleLetters": "YNTCD",
-    "titleLettersIndices": [
-      0,
-      4,
-      9,
-      12,
-      17
-    ],
-    "albumId": "lover"
-  },
-  {
-    "title": "Afterglow",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "lover"
-  },
-  {
-    "title": "ME! (feat. Brendon Urie of Panic! At The Disco)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "lover"
-  },
-  {
-    "title": "It’s Nice To Have A Friend",
-    "titleLetters": "INTHAF",
-    "titleLettersIndices": [
-      0,
-      5,
+      7,
       10,
-      13,
-      18,
+      15,
       20
     ],
-    "albumId": "lover"
+    "albumId": "midnights"
   },
   {
-    "title": "Daylight",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "lover"
-  },
-  {
-    "title": "Only The Young - Featured in Miss Americana",
-    "titleLetters": "OTYFiMA",
+    "title": "Midnight Rain",
+    "titleLetters": "MR",
     "titleLettersIndices": [
       0,
-      5,
-      9,
-      17,
-      26,
-      29,
-      34
+      9
     ],
-    "albumId": "only-the-young"
+    "albumId": "midnights"
   },
   {
-    "title": "the 1",
+    "title": "Question...?",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "folklore"
+    "albumId": "midnights"
   },
   {
-    "title": "cardigan",
+    "title": "Vigilante Shit",
+    "titleLetters": "VS",
+    "titleLettersIndices": [
+      0,
+      10
+    ],
+    "albumId": "midnights"
+  },
+  {
+    "title": "Bejeweled",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "folklore"
+    "albumId": "midnights"
   },
   {
-    "title": "the last great american dynasty",
-    "titleLetters": "tlgad",
+    "title": "Labyrinth",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "midnights"
+  },
+  {
+    "title": "Karma",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "midnights"
+  },
+  {
+    "title": "Sweet Nothing",
+    "titleLetters": "SN",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "midnights"
+  },
+  {
+    "title": "Mastermind",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "midnights"
+  },
+  {
+    "title": "The Great War",
+    "titleLetters": "TGW",
     "titleLettersIndices": [
       0,
       4,
-      9,
-      15,
-      24
-    ],
-    "albumId": "folklore"
-  },
-  {
-    "title": "exile (feat. Bon Iver)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "my tears ricochet",
-    "titleLetters": "mtr",
-    "titleLettersIndices": [
-      0,
-      3,
-      9
-    ],
-    "albumId": "folklore"
-  },
-  {
-    "title": "mirrorball",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "seven",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "august",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "this is me trying",
-    "titleLetters": "timt",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      11
-    ],
-    "albumId": "folklore"
-  },
-  {
-    "title": "illicit affairs",
-    "titleLetters": "ia",
-    "titleLettersIndices": [
-      0,
-      8
-    ],
-    "albumId": "folklore"
-  },
-  {
-    "title": "invisible string",
-    "titleLetters": "is",
-    "titleLettersIndices": [
-      0,
       10
     ],
-    "albumId": "folklore"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "mad woman",
-    "titleLetters": "mw",
+    "title": "Bigger Than The Whole Sky",
+    "titleLetters": "BTTWS",
     "titleLettersIndices": [
       0,
-      4
+      7,
+      12,
+      16,
+      22
     ],
-    "albumId": "folklore"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "epiphany",
+    "title": "Paris",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "folklore"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "betty",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "peace",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "hoax",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "folklore"
-  },
-  {
-    "title": "the lakes",
-    "titleLetters": "tl",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "folklore-deluxe"
-  },
-  {
-    "title": "willow",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "champagne problems",
-    "titleLetters": "cp",
-    "titleLettersIndices": [
-      0,
-      10
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "gold rush",
-    "titleLetters": "gr",
+    "title": "High Infidelity",
+    "titleLetters": "HI",
     "titleLettersIndices": [
       0,
       5
     ],
-    "albumId": "evermore"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "‘tis the damn season",
-    "titleLetters": "ttds",
-    "titleLettersIndices": [
-      1,
-      5,
-      9,
-      14
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "tolerate it",
-    "titleLetters": "ti",
-    "titleLettersIndices": [
-      0,
-      9
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "no body, no crime (feat. HAIM)",
-    "titleLetters": "nbnc",
-    "titleLettersIndices": [
-      0,
-      3,
-      9,
-      12
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "happiness",
+    "title": "Glitch",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "evermore"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "dorothea",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "coney island (feat. The National)",
-    "titleLetters": "ci",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "ivy",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "cowboy like me",
-    "titleLetters": "clm",
-    "titleLettersIndices": [
-      0,
-      7,
-      12
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "long story short",
-    "titleLetters": "lss",
-    "titleLettersIndices": [
-      0,
-      5,
-      11
-    ],
-    "albumId": "evermore"
-  },
-  {
-    "title": "marjorie",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "closure",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "evermore (feat. Bon Iver)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "evermore"
-  },
-  {
-    "title": "right where you left me",
-    "titleLetters": "rwylm",
-    "titleLettersIndices": [
-      0,
-      6,
-      12,
-      16,
-      21
-    ],
-    "albumId": "evermore-deluxe"
-  },
-  {
-    "title": "it’s time to go",
-    "titleLetters": "ittg",
-    "titleLettersIndices": [
-      0,
-      5,
-      10,
-      13
-    ],
-    "albumId": "evermore-deluxe"
-  },
-  {
-    "title": "Christmas Tree Farm",
-    "titleLetters": "CTF",
+    "title": "Would've, Could've, Should've",
+    "titleLetters": "WCS",
     "titleLettersIndices": [
       0,
       10,
-      15
+      20
     ],
-    "albumId": "christmas-tree-farm"
+    "albumId": "midnights-3am"
   },
   {
-    "title": "Fearless (Taylor’s Version)",
+    "title": "Dear Reader",
+    "titleLetters": "DR",
+    "titleLettersIndices": [
+      0,
+      5
+    ],
+    "albumId": "midnights-3am"
+  },
+  {
+    "title": "Anti-Hero (feat. Bleachers)",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "fearless-tv"
+    "albumId": "anti-hero-bleachers"
   },
   {
-    "title": "Fifteen (Taylor’s Version)",
+    "title": "Hits Different",
+    "titleLetters": "HD",
+    "titleLettersIndices": [
+      0,
+      5
+    ],
+    "albumId": "midnights-til-dawn"
+  },
+  {
+    "title": "Karma (feat. Ice Spice)",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "fearless-tv"
+    "albumId": "midnights-til-dawn"
   },
   {
-    "title": "Love Story (Taylor’s Version)",
-    "titleLetters": "LSTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      12,
-      21
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Hey Stephen (Taylor’s Version)",
-    "titleLetters": "HSTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      13,
-      22
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "White Horse (Taylor’s Version)",
-    "titleLetters": "WHTV",
-    "titleLettersIndices": [
-      0,
-      6,
-      13,
-      22
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "You Belong With Me (Taylor’s Version)",
-    "titleLetters": "YBWMTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      11,
-      16,
-      20,
-      29
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Breathe (feat. Colbie Caillat) (Taylor’s Version)",
+    "title": "Carolina - From The Motion Picture “Where The Crawdads Sing”",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "fearless-tv"
+    "albumId": "carolina"
   },
   {
-    "title": "Tell Me Why (Taylor’s Version)",
-    "titleLetters": "TMWTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      13,
-      22
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "You’re Not Sorry (Taylor’s Version)",
-    "titleLetters": "YNSTV",
-    "titleLettersIndices": [
-      0,
-      7,
-      11,
-      18,
-      27
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "The Way I Loved You (Taylor’s Version)",
-    "titleLetters": "TWILYTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      8,
-      10,
-      16,
-      21,
-      30
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Forever & Always (Taylor’s Version)",
-    "titleLetters": "FAATV",
-    "titleLettersIndices": [
-      0,
-      8,
-      10,
-      18,
-      27
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "The Best Day (Taylor’s Version)",
-    "titleLetters": "TBDTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      9,
-      14,
-      23
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Change (Taylor’s Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Jump Then Fall (Taylor’s Version)",
-    "titleLetters": "JTFTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      10,
-      16,
-      25
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Untouchable (Taylor’s Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Forever & Always (Piano Version) (Taylor’s Version)",
-    "titleLetters": "FAAPVTV",
-    "titleLettersIndices": [
-      0,
-      8,
-      10,
-      18,
-      24,
-      34,
-      43
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Come In With The Rain (Taylor’s Version)",
-    "titleLetters": "CIWTRTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      8,
-      13,
-      17,
-      23,
-      32
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Superstar (Taylor’s Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "The Other Side Of The Door (Taylor’s Version)",
-    "titleLetters": "TOSOTDTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      10,
-      15,
-      18,
-      22,
-      28,
-      37
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Today Was A Fairytale (Taylor’s Version)",
-    "titleLetters": "TWAFTV",
-    "titleLettersIndices": [
-      0,
-      6,
-      10,
-      12,
-      23,
-      32
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault)",
-    "titleLetters": "YAOMTVFTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      8,
-      13,
-      38,
-      47,
-      57,
-      62,
-      66
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Mr. Perfectly Fine (Taylor’s Version) (From The Vault)",
-    "titleLetters": "MPFTVFTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      14,
-      20,
-      29,
-      39,
-      44,
-      48
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "We Were Happy (Taylor’s Version) (From The Vault)",
-    "titleLetters": "WWHTVFTV",
-    "titleLettersIndices": [
-      0,
-      3,
-      8,
-      15,
-      24,
-      34,
-      39,
-      43
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "That’s When (feat. Keith Urban) (Taylor’s Version) (From The Vault)",
-    "titleLetters": "TWTVFTV",
-    "titleLettersIndices": [
-      0,
-      7,
-      33,
-      42,
-      52,
-      57,
-      61
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Don’t You (Taylor’s Version) (From The Vault)",
-    "titleLetters": "DYTVFTV",
-    "titleLettersIndices": [
-      0,
-      6,
-      11,
-      20,
-      30,
-      35,
-      39
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Bye Bye Baby (Taylor’s Version) (From The Vault)",
-    "titleLetters": "BBBTVFTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      8,
-      14,
-      23,
-      33,
-      38,
-      42
-    ],
-    "albumId": "fearless-tv"
-  },
-  {
-    "title": "Birch",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "how-long-do-you-think-its-gonna-last"
-  },
-  {
-    "title": "Renegade",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "how-long-do-you-think-its-gonna-last"
-  },
-  {
-    "title": "Wildest Dreams (Taylor's Version)",
-    "titleLetters": "WDTV",
-    "titleLettersIndices": [
-      0,
-      8,
-      16,
-      25
-    ],
-    "albumId": "wildest-dreams-tv"
-  },
-  {
-    "title": "Eyes Open (Taylor's Version)",
-    "titleLetters": "EOTV",
+    "title": "This Love (Taylor’s Version)",
+    "titleLetters": "TLTV",
     "titleLettersIndices": [
       0,
       5,
       11,
       20
     ],
-    "albumId": "eyes-open-tv"
+    "albumId": "this-love-tv"
   },
   {
-    "title": "Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version)",
-    "titleLetters": "SASTV",
+    "title": "The Joker And The Queen (feat. Taylor Swift)",
+    "titleLetters": "TJATQ",
     "titleLettersIndices": [
       0,
-      5,
-      7,
-      55,
-      64
+      4,
+      10,
+      14,
+      18
     ],
-    "albumId": "safe-and-sound-tv"
+    "albumId": "the-joker-and-the-queen"
+  },
+  {
+    "title": "Christmas Tree Farm (Old Timey Version)",
+    "titleLetters": "CTFOTV",
+    "titleLettersIndices": [
+      0,
+      10,
+      15,
+      21,
+      25,
+      31
+    ],
+    "albumId": "christmas-tree-farm-otv"
   },
   {
     "title": "State Of Grace (Taylor's Version)",
@@ -1690,7 +805,10 @@
       0,
       4,
       8,
-      15,
+      [
+        14,
+        15
+      ],
       17,
       24,
       34,
@@ -1721,49 +839,16 @@
     "albumId": "atw-sgav"
   },
   {
-    "title": "Christmas Tree Farm (Old Timey Version)",
-    "titleLetters": "CTFOTV",
-    "titleLettersIndices": [
-      0,
-      10,
-      15,
-      21,
-      25,
-      31
-    ],
-    "albumId": "christmas-tree-farm-otv"
-  },
-  {
-    "title": "The Joker And The Queen (feat. Taylor Swift)",
-    "titleLetters": "TJATQ",
-    "titleLettersIndices": [
-      0,
-      4,
-      10,
-      14,
-      18
-    ],
-    "albumId": "the-joker-and-the-queen"
-  },
-  {
-    "title": "This Love (Taylor’s Version)",
-    "titleLetters": "TLTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      11,
-      20
-    ],
-    "albumId": "this-love-tv"
-  },
-  {
     "title": "All Too Well (10 Minute Version) (The Short Film)",
     "titleLetters": "ATWTMVTSF",
     "titleLettersIndices": [
       0,
       4,
       8,
-      15,
+      [
+        14,
+        15
+      ],
       17,
       24,
       34,
@@ -1773,429 +858,1350 @@
     "albumId": "atv-tmvtsf"
   },
   {
-    "title": "Carolina - From The Motion Picture “Where The Crawdads Sing”",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "carolina"
-  },
-  {
-    "title": "Lavender Haze",
-    "titleLetters": "LH",
-    "titleLettersIndices": [
-      0,
-      9
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "Maroon",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Anti-Hero",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Snow On The Beach (feat. Lana Del Rey)",
-    "titleLetters": "SOTB",
+    "title": "Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version)",
+    "titleLetters": "SASTV",
     "titleLettersIndices": [
       0,
       5,
+      7,
+      55,
+      64
+    ],
+    "albumId": "safe-and-sound-tv"
+  },
+  {
+    "title": "Eyes Open (Taylor's Version)",
+    "titleLetters": "EOTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      11,
+      20
+    ],
+    "albumId": "eyes-open-tv"
+  },
+  {
+    "title": "Wildest Dreams (Taylor's Version)",
+    "titleLetters": "WDTV",
+    "titleLettersIndices": [
+      0,
       8,
-      12
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "You're On Your Own, Kid",
-    "titleLetters": "YOYOK",
-    "titleLettersIndices": [
-      0,
-      7,
-      10,
-      15,
-      20
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "Midnight Rain",
-    "titleLetters": "MR",
-    "titleLettersIndices": [
-      0,
-      9
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "Question...?",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Vigilante Shit",
-    "titleLetters": "VS",
-    "titleLettersIndices": [
-      0,
-      10
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "Bejeweled",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Labyrinth",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Karma",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "Sweet Nothing",
-    "titleLetters": "SN",
-    "titleLettersIndices": [
-      0,
-      6
-    ],
-    "albumId": "midnights"
-  },
-  {
-    "title": "Mastermind",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "midnights"
-  },
-  {
-    "title": "The Great War",
-    "titleLetters": "TGW",
-    "titleLettersIndices": [
-      0,
-      4,
-      10
-    ],
-    "albumId": "midnights-3am"
-  },
-  {
-    "title": "Bigger Than The Whole Sky",
-    "titleLetters": "BTTWS",
-    "titleLettersIndices": [
-      0,
-      7,
-      12,
       16,
-      22
+      25
     ],
-    "albumId": "midnights-3am"
+    "albumId": "wildest-dreams-tv"
   },
   {
-    "title": "Paris",
+    "title": "Birch",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "midnights-3am"
+    "albumId": "how-long-do-you-think-its-gonna-last"
   },
   {
-    "title": "High Infidelity",
-    "titleLetters": "HI",
-    "titleLettersIndices": [
-      0,
-      5
-    ],
-    "albumId": "midnights-3am"
-  },
-  {
-    "title": "Glitch",
+    "title": "Renegade",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "midnights-3am"
+    "albumId": "how-long-do-you-think-its-gonna-last"
   },
   {
-    "title": "Would've, Could've, Should've",
-    "titleLetters": "WCS",
-    "titleLettersIndices": [
-      0,
-      10,
-      20
-    ],
-    "albumId": "midnights-3am"
-  },
-  {
-    "title": "Dear Reader",
-    "titleLetters": "DR",
-    "titleLettersIndices": [
-      0,
-      5
-    ],
-    "albumId": "midnights-3am"
-  },
-  {
-    "title": "Anti-Hero (feat. Bleachers)",
+    "title": "Fearless (Taylor’s Version)",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "anti-hero-bleachers"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "The Alcott (feat. Taylor Swift)",
-    "titleLetters": "TA",
-    "titleLettersIndices": [
-      0,
-      4
-    ],
-    "albumId": "first-two-pages-of-frankenstein"
-  },
-  {
-    "title": "Hits Different",
-    "titleLetters": "HD",
-    "titleLettersIndices": [
-      0,
-      5
-    ],
-    "albumId": "midnights-til-dawn"
-  },
-  {
-    "title": "Karma (feat. Ice Spice)",
+    "title": "Fifteen (Taylor’s Version)",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "midnights-til-dawn"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Mine (Taylor's Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Sparks Fly (Taylor’s Version)",
-    "titleLetters": "SFTV",
+    "title": "Love Story (Taylor’s Version)",
+    "titleLetters": "LSTV",
     "titleLettersIndices": [
       0,
-      7,
+      5,
       12,
       21
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Back To December (Taylor's Version)",
-    "titleLetters": "BTDTV",
+    "title": "Hey Stephen (Taylor’s Version)",
+    "titleLetters": "HSTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      13,
+      22
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "White Horse (Taylor’s Version)",
+    "titleLetters": "WHTV",
+    "titleLettersIndices": [
+      0,
+      6,
+      13,
+      22
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "You Belong With Me (Taylor’s Version)",
+    "titleLetters": "YBWMTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      11,
+      16,
+      20,
+      29
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Breathe (feat. Colbie Caillat) (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Tell Me Why (Taylor’s Version)",
+    "titleLetters": "TMWTV",
     "titleLettersIndices": [
       0,
       5,
       8,
-      18,
-      27
-    ],
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Speak Now (Taylor's Version)",
-    "titleLetters": "SNTV",
-    "titleLettersIndices": [
-      0,
-      6,
-      11,
-      20
-    ],
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Dear John (Taylor's Version)",
-    "titleLetters": "DJTV",
-    "titleLettersIndices": [
-      0,
-      5,
-      11,
-      20
-    ],
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Mean (Taylor's Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "The Story Of Us (Taylor's Version)",
-    "titleLetters": "TSOUTV",
-    "titleLettersIndices": [
-      0,
-      4,
-      10,
       13,
-      17,
-      26
+      22
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Never Grow Up (Taylor's Version)",
-    "titleLetters": "NGUTV",
-    "titleLettersIndices": [
-      0,
-      6,
-      11,
-      15,
-      24
-    ],
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Enchanted (Taylor's Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Better Than Revenge (Taylor's Version)",
-    "titleLetters": "BTRTV",
+    "title": "You’re Not Sorry (Taylor’s Version)",
+    "titleLetters": "YNSTV",
     "titleLettersIndices": [
       0,
       7,
-      12,
+      11,
+      18,
+      27
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "The Way I Loved You (Taylor’s Version)",
+    "titleLetters": "TWILYTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      8,
+      10,
+      16,
       21,
       30
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Innocent (Taylor's Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Haunted (Taylor's Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Last Kiss (Taylor's Version)",
-    "titleLetters": "LKTV",
+    "title": "Forever & Always (Taylor’s Version)",
+    "titleLetters": "FAATV",
     "titleLettersIndices": [
       0,
-      5,
-      11,
-      20
+      8,
+      10,
+      18,
+      27
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Long Live (Taylor's Version)",
-    "titleLetters": "LLTV",
+    "title": "The Best Day (Taylor’s Version)",
+    "titleLetters": "TBDTV",
     "titleLettersIndices": [
       0,
-      5,
-      11,
-      20
-    ],
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Ours (Taylor’s Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Superman (Taylor’s Version)",
-    "titleLetters": null,
-    "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
-  },
-  {
-    "title": "Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From The Vault)",
-    "titleLetters": "ETTVFTV",
-    "titleLettersIndices": [
-      0,
+      4,
       9,
-      37,
-      46,
-      56,
-      61,
-      65
+      14,
+      23
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "When Emma Falls in Love (Taylor’s Version) (From The Vault)",
-    "titleLetters": "WEFiLTVFTV",
+    "title": "Change (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Jump Then Fall (Taylor’s Version)",
+    "titleLetters": "JTFTV",
     "titleLettersIndices": [
       0,
       5,
       10,
       16,
-      19,
-      25,
-      34,
-      44,
-      49,
-      53
+      25
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "I Can See You (Taylor’s Version) (From The Vault)",
-    "titleLetters": "ICSYTVFTV",
+    "title": "Untouchable (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Forever & Always (Piano Version) (Taylor’s Version)",
+    "titleLetters": "FAAPVTV",
     "titleLettersIndices": [
       0,
-      2,
+      8,
+      10,
+      18,
+      24,
+      34,
+      43
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Come In With The Rain (Taylor’s Version)",
+    "titleLetters": "CIWTRTV",
+    "titleLettersIndices": [
+      0,
+      5,
+      8,
+      13,
+      17,
+      23,
+      32
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Superstar (Taylor’s Version)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "The Other Side Of The Door (Taylor’s Version)",
+    "titleLetters": "TOSOTDTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      10,
+      15,
+      18,
+      22,
+      28,
+      37
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Today Was A Fairytale (Taylor’s Version)",
+    "titleLetters": "TWAFTV",
+    "titleLettersIndices": [
+      0,
       6,
       10,
+      12,
+      23,
+      32
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault)",
+    "titleLetters": "YAOMTVFTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      8,
+      13,
+      38,
+      47,
+      57,
+      62,
+      66
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Mr. Perfectly Fine (Taylor’s Version) (From The Vault)",
+    "titleLetters": "MPFTVFTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      14,
+      20,
+      29,
+      39,
+      44,
+      48
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "We Were Happy (Taylor’s Version) (From The Vault)",
+    "titleLetters": "WWHTVFTV",
+    "titleLettersIndices": [
+      0,
+      3,
+      8,
       15,
       24,
       34,
       39,
       43
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Castles Crumbling (feat. Hayley Williams) (Taylor’s Version) (From The Vault)",
-    "titleLetters": "CCTVFTV",
+    "title": "That’s When (feat. Keith Urban) (Taylor’s Version) (From The Vault)",
+    "titleLetters": "TWTVFTV",
     "titleLettersIndices": [
       0,
-      8,
-      43,
+      7,
+      33,
+      42,
       52,
-      62,
-      67,
-      71
+      57,
+      61
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "fearless-tv"
   },
   {
-    "title": "Foolish One (Taylor’s Version) (From The Vault)",
-    "titleLetters": "FOTVFTV",
+    "title": "Don’t You (Taylor’s Version) (From The Vault)",
+    "titleLetters": "DYTVFTV",
+    "titleLettersIndices": [
+      0,
+      6,
+      11,
+      20,
+      30,
+      35,
+      39
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Bye Bye Baby (Taylor’s Version) (From The Vault)",
+    "titleLetters": "BBBTVFTV",
+    "titleLettersIndices": [
+      0,
+      4,
+      8,
+      14,
+      23,
+      33,
+      38,
+      42
+    ],
+    "albumId": "fearless-tv"
+  },
+  {
+    "title": "Christmas Tree Farm",
+    "titleLetters": "CTF",
+    "titleLettersIndices": [
+      0,
+      10,
+      15
+    ],
+    "albumId": "christmas-tree-farm"
+  },
+  {
+    "title": "willow",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "champagne problems",
+    "titleLetters": "cp",
+    "titleLettersIndices": [
+      0,
+      10
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "gold rush",
+    "titleLetters": "gr",
+    "titleLettersIndices": [
+      0,
+      5
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "‘tis the damn season",
+    "titleLetters": "ttds",
+    "titleLettersIndices": [
+      1,
+      5,
+      9,
+      14
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "tolerate it",
+    "titleLetters": "ti",
+    "titleLettersIndices": [
+      0,
+      9
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "no body, no crime (feat. HAIM)",
+    "titleLetters": "nbnc",
+    "titleLettersIndices": [
+      0,
+      3,
+      9,
+      12
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "happiness",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "dorothea",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "coney island (feat. The National)",
+    "titleLetters": "ci",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "ivy",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "cowboy like me",
+    "titleLetters": "clm",
+    "titleLettersIndices": [
+      0,
+      7,
+      12
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "long story short",
+    "titleLetters": "lss",
+    "titleLettersIndices": [
+      0,
+      5,
+      11
+    ],
+    "albumId": "evermore"
+  },
+  {
+    "title": "marjorie",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "closure",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "evermore (feat. Bon Iver)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "evermore"
+  },
+  {
+    "title": "right where you left me",
+    "titleLetters": "rwylm",
+    "titleLettersIndices": [
+      0,
+      6,
+      12,
+      16,
+      21
+    ],
+    "albumId": "evermore-deluxe"
+  },
+  {
+    "title": "it’s time to go",
+    "titleLetters": "ittg",
+    "titleLettersIndices": [
+      0,
+      5,
+      10,
+      13
+    ],
+    "albumId": "evermore-deluxe"
+  },
+  {
+    "title": "the 1",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "cardigan",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "the last great american dynasty",
+    "titleLetters": "tlgad",
+    "titleLettersIndices": [
+      0,
+      4,
+      9,
+      15,
+      24
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "exile (feat. Bon Iver)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "my tears ricochet",
+    "titleLetters": "mtr",
+    "titleLettersIndices": [
+      0,
+      3,
+      9
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "mirrorball",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "seven",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "august",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "this is me trying",
+    "titleLetters": "timt",
+    "titleLettersIndices": [
+      0,
+      5,
+      8,
+      11
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "illicit affairs",
+    "titleLetters": "ia",
+    "titleLettersIndices": [
+      0,
+      8
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "invisible string",
+    "titleLetters": "is",
+    "titleLettersIndices": [
+      0,
+      10
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "mad woman",
+    "titleLetters": "mw",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "folklore"
+  },
+  {
+    "title": "epiphany",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "betty",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "peace",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "hoax",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "folklore"
+  },
+  {
+    "title": "the lakes",
+    "titleLetters": "tl",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "folklore-deluxe"
+  },
+  {
+    "title": "Only The Young - Featured in Miss Americana",
+    "titleLetters": "OTYFiMA",
+    "titleLettersIndices": [
+      0,
+      5,
+      9,
+      17,
+      26,
+      29,
+      34
+    ],
+    "albumId": "only-the-young"
+  },
+  {
+    "title": "I Forgot That You Existed",
+    "titleLetters": "IFTYE",
+    "titleLettersIndices": [
+      0,
+      2,
+      9,
+      14,
+      18
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Cruel Summer",
+    "titleLetters": "CS",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Lover",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "lover"
+  },
+  {
+    "title": "The Man",
+    "titleLetters": "TM",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "The Archer",
+    "titleLetters": "TA",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "I Think He Knows",
+    "titleLetters": "ITHK",
+    "titleLettersIndices": [
+      0,
+      2,
+      8,
+      11
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Miss Americana & The Heartbreak Prince",
+    "titleLetters": "MAATHP",
+    "titleLettersIndices": [
+      0,
+      5,
+      15,
+      17,
+      21,
+      32
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Paper Rings",
+    "titleLetters": "PR",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Cornelia Street",
+    "titleLetters": "CS",
+    "titleLettersIndices": [
+      0,
+      9
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Death By A Thousand Cuts",
+    "titleLetters": "DBATC",
+    "titleLettersIndices": [
+      0,
+      6,
+      9,
+      11,
+      20
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "London Boy",
+    "titleLetters": "LB",
+    "titleLettersIndices": [
+      0,
+      7
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Soon You’ll Get Better (feat. The Chicks)",
+    "titleLetters": "SYGB",
+    "titleLettersIndices": [
+      0,
+      5,
+      12,
+      16
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "False God",
+    "titleLetters": "FG",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "You Need To Calm Down",
+    "titleLetters": "YNTCD",
+    "titleLettersIndices": [
+      0,
+      4,
+      9,
+      12,
+      17
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Afterglow",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "lover"
+  },
+  {
+    "title": "ME! (feat. Brendon Urie of Panic! At The Disco)",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "lover"
+  },
+  {
+    "title": "It’s Nice To Have A Friend",
+    "titleLetters": "INTHAF",
+    "titleLettersIndices": [
+      0,
+      5,
+      10,
+      13,
+      18,
+      20
+    ],
+    "albumId": "lover"
+  },
+  {
+    "title": "Daylight",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "lover"
+  },
+  {
+    "title": "September - Recorded at The Tracking Room Nashville",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "spotify-singles"
+  },
+  {
+    "title": "...Ready For It?",
+    "titleLetters": "RFI",
+    "titleLettersIndices": [
+      3,
+      9,
+      13
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "End Game",
+    "titleLetters": "EG",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "I Did Something Bad",
+    "titleLetters": "IDSB",
+    "titleLettersIndices": [
+      0,
+      2,
+      6,
+      16
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "Don’t Blame Me",
+    "titleLetters": "DBM",
+    "titleLettersIndices": [
+      0,
+      6,
+      12
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "Delicate",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "reputation"
+  },
+  {
+    "title": "Look What You Made Me Do",
+    "titleLetters": "LWYMMD",
+    "titleLettersIndices": [
+      0,
+      5,
+      10,
+      14,
+      19,
+      22
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "So It Goes...",
+    "titleLetters": "SIG",
+    "titleLettersIndices": [
+      0,
+      3,
+      6
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "Gorgeous",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "reputation"
+  },
+  {
+    "title": "Getaway Car",
+    "titleLetters": "GC",
+    "titleLettersIndices": [
+      0,
+      8
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "King Of My Heart",
+    "titleLetters": "KOMH",
+    "titleLettersIndices": [
+      0,
+      5,
+      8,
+      11
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "Dancing With Our Hands Tied",
+    "titleLetters": "DWOHT",
     "titleLettersIndices": [
       0,
       8,
       13,
-      22,
-      32,
-      37,
-      41
+      17,
+      23
     ],
-    "albumId": "speak-now-tv"
+    "albumId": "reputation"
   },
   {
-    "title": "Timeless (Taylor’s Version) (From The Vault)",
+    "title": "Dress",
     "titleLetters": null,
     "titleLettersIndices": null,
-    "albumId": "speak-now-tv"
+    "albumId": "reputation"
+  },
+  {
+    "title": "This Is Why We Can't Have Nice Things",
+    "titleLetters": "TIWWCHNT",
+    "titleLettersIndices": [
+      0,
+      5,
+      8,
+      12,
+      15,
+      21,
+      26,
+      31
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "Call It What You Want",
+    "titleLetters": "CIWYW",
+    "titleLettersIndices": [
+      0,
+      5,
+      8,
+      13,
+      17
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "New Year’s Day",
+    "titleLetters": "NYD",
+    "titleLettersIndices": [
+      0,
+      4,
+      11
+    ],
+    "albumId": "reputation"
+  },
+  {
+    "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+    "titleLetters": "IDWLFFSD",
+    "titleLettersIndices": [
+      0,
+      2,
+      8,
+      14,
+      19,
+      28,
+      34,
+      41
+    ],
+    "albumId": "reputation-stadium-tour-surprise-song-playlist"
+  },
+  {
+    "title": "Welcome To New York",
+    "titleLetters": "WTNY",
+    "titleLettersIndices": [
+      0,
+      8,
+      11,
+      15
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "Blank Space",
+    "titleLetters": "BS",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "Style",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "1989"
+  },
+  {
+    "title": "Out Of The Woods",
+    "titleLetters": "OOTW",
+    "titleLettersIndices": [
+      0,
+      4,
+      7,
+      11
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "All You Had To Do Was Stay",
+    "titleLetters": "AYHTDWS",
+    "titleLettersIndices": [
+      0,
+      4,
+      8,
+      12,
+      15,
+      18,
+      22
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "Shake It Off",
+    "titleLetters": "SIO",
+    "titleLettersIndices": [
+      0,
+      6,
+      9
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "I Wish You Would",
+    "titleLetters": "IWYW",
+    "titleLettersIndices": [
+      0,
+      2,
+      7,
+      11
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "Bad Blood",
+    "titleLetters": "BB",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "How You Get The Girl",
+    "titleLetters": "HYGTG",
+    "titleLettersIndices": [
+      0,
+      4,
+      8,
+      12,
+      16
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "I Know Places",
+    "titleLetters": "IKP",
+    "titleLettersIndices": [
+      0,
+      2,
+      7
+    ],
+    "albumId": "1989"
+  },
+  {
+    "title": "Clean",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "1989"
+  },
+  {
+    "title": "Bad Blood (feat. Kendrick Lamar)",
+    "titleLetters": "BB",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "bad-blood-kendrick-lamar"
+  },
+  {
+    "title": "Sweeter Than Fiction - From \"One Chance\" Soundtrack",
+    "titleLetters": "STFFOCS",
+    "titleLettersIndices": [
+      0,
+      8,
+      13,
+      23,
+      29,
+      33,
+      41
+    ],
+    "albumId": "sweeter-than-fiction"
+  },
+  {
+    "title": "Better Than Revenge",
+    "titleLetters": "BTR",
+    "titleLettersIndices": [
+      0,
+      7,
+      12
+    ],
+    "albumId": "speak-now"
+  },
+  {
+    "title": "Last Christmas",
+    "titleLetters": "LC",
+    "titleLettersIndices": [
+      0,
+      5
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "Christmases When You Were Mine",
+    "titleLetters": "CWYWM",
+    "titleLettersIndices": [
+      0,
+      12,
+      17,
+      21,
+      26
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "Santa Baby",
+    "titleLetters": "SB",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "Silent Night",
+    "titleLetters": "SN",
+    "titleLettersIndices": [
+      0,
+      7
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "Christmas Must Be Something More",
+    "titleLetters": "CMBSM",
+    "titleLettersIndices": [
+      0,
+      10,
+      15,
+      18,
+      28
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "White Christmas",
+    "titleLetters": "WC",
+    "titleLettersIndices": [
+      0,
+      6
+    ],
+    "albumId": "the-taylor-swift-holiday-collection"
+  },
+  {
+    "title": "Beautiful Eyes - Live From Clear Channel Stripped 2008",
+    "titleLetters": "BELFCCS",
+    "titleLettersIndices": [
+      0,
+      10,
+      17,
+      22,
+      27,
+      33,
+      41
+    ],
+    "albumId": "live-from-clear-channel-stripped-2008"
+  },
+  {
+    "title": "Tim McGraw",
+    "titleLetters": "TMG",
+    "titleLettersIndices": [
+      0,
+      4,
+      6
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Picture To Burn",
+    "titleLetters": "PTB",
+    "titleLettersIndices": [
+      0,
+      8,
+      11
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Teardrops On My Guitar",
+    "titleLetters": "TOMG",
+    "titleLettersIndices": [
+      0,
+      10,
+      13,
+      16
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "A Place in this World",
+    "titleLetters": "APitW",
+    "titleLettersIndices": [
+      0,
+      2,
+      8,
+      11,
+      16
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Cold As You",
+    "titleLetters": "CAY",
+    "titleLettersIndices": [
+      0,
+      5,
+      8
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "The Outside",
+    "titleLetters": "TO",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Tied Together with a Smile",
+    "titleLetters": "TTwaS",
+    "titleLettersIndices": [
+      0,
+      5,
+      14,
+      19,
+      21
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Stay Beautiful",
+    "titleLetters": "SB",
+    "titleLettersIndices": [
+      0,
+      5
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Should've Said No",
+    "titleLetters": "SSN",
+    "titleLettersIndices": [
+      0,
+      10,
+      15
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Mary's Song (Oh My My My)",
+    "titleLetters": "MSOMMM",
+    "titleLettersIndices": [
+      0,
+      7,
+      13,
+      16,
+      19,
+      22
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Our Song",
+    "titleLetters": "OS",
+    "titleLettersIndices": [
+      0,
+      4
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "I'm Only Me When I'm With You",
+    "titleLetters": "IOMWIWY",
+    "titleLettersIndices": [
+      0,
+      4,
+      9,
+      12,
+      17,
+      21,
+      26
+    ],
+    "albumId": "debut"
+  },
+  {
+    "title": "Invisible",
+    "titleLetters": null,
+    "titleLettersIndices": null,
+    "albumId": "debut"
+  },
+  {
+    "title": "A Perfectly Good Heart",
+    "titleLetters": "APGH",
+    "titleLettersIndices": [
+      0,
+      2,
+      12,
+      17
+    ],
+    "albumId": "debut"
   }
 ]
