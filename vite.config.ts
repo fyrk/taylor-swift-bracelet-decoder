@@ -7,4 +7,6 @@ export default defineConfig({
   server: {
     host: true,
   },
+  // needed for GitHub Pages
+  base: "/taylor-swift-bracelet-decoder/",
 })
