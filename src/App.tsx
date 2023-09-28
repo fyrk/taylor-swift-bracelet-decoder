@@ -20,24 +20,40 @@ const findMatches = (letters: string) => {
 
 type FuseResult = Fuse.FuseResult<(typeof TRACKS)[0]>
 
-function GlitterLetters({ text }: { text: string }) {
-  const letters = text.split("")
-  const delays = useMemo(
-    () => [...Array(text.length)].map(() => `-${Math.random() * 10}s`),
-    [text],
+function GlitterColor({
+  children,
+  slow,
+  randomStart,
+}: {
+  children
+  slow?: boolean
+  randomStart?: boolean
+}) {
+  const delay = useMemo(
+    () => (randomStart != false ? `-${Math.random() * 10}s` : null),
+    [children, randomStart],
   )
   return (
+    <span
+      class={
+        slow
+          ? "motion-safe:animate-glitter-slow"
+          : "motion-safe:animate-glitter"
+      }
+      style={{
+        animationDelay: delay,
+      }}
+    >
+      {children}
+    </span>
+  )
+}
+
+function GlitterLetters({ text }: { text: string }) {
+  return (
     <span>
-      {letters.map((letter, i) => (
-        <span
-          class="motion-safe:animate-glitter"
-          style={{
-            animationDelay: delays[i],
-          }}
-          key={i}
-        >
-          {letter}
-        </span>
+      {text.split("").map((letter, i) => (
+        <GlitterColor key={i}>{letter}</GlitterColor>
       ))}
     </span>
   )
@@ -159,8 +175,9 @@ export function App() {
   const [matches, setMatches] = useState<FuseResult[]>([])
 
   return (
-    <div class="p-3 text-center sm:p-5">
-      <h1 class="mt-5 text-[max(min(4rem,6vw),2.5rem)] font-medium leading-[1.2] sm:mt-10">
+    <div class="flex h-full flex-col p-3 text-center sm:p-5">
+      <div class="flex-grow">
+        <h1 class="mt-5 grow text-[max(min(4rem,6vw),2.5rem)] font-medium leading-[1.2] sm:mt-10">
         Taylor&nbsp;Swift Bracelet&nbsp;Decoder
       </h1>
       <div class="mt-2 font-slab text-[max(min(2.5rem,4vw),1.5rem)] font-medium uppercase tracking-wider sm:mt-4">
@@ -187,6 +204,39 @@ export function App() {
           ))}
         </div>
       </div>
+      </div>
+
+      <footer class="mt-16 shrink pb-8 text-center">
+        <p class="mb-2">
+          Made with{" "}
+          <GlitterColor slow={true} randomStart={false}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="inline-block h-6 w-6"
+            >
+              <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+            </svg>
+            <span class="text-body"> by </span>
+            <a
+              class="hover:underline"
+              href="https://github.com/FlorianRaediker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              flo (Taylor’s Version)
+            </a>
+          </GlitterColor>{" "}
+        </p>
+
+        <p class="mx-auto max-w-xs">
+          <small class="">
+            This is a Swiftie-made project neither affiliated with nor endorsed
+            by Taylor Alison Swift.
+          </small>
+        </p>
+      </footer>
     </div>
   )
 }

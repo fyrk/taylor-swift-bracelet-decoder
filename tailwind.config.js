@@ -24,7 +24,9 @@ export default {
       slab: ["Roboto Slab", ...defaultTheme.fontFamily.sans],
     },
     extend: {
-      color: {
+      colors: {
+        body: "#d4d4d4",
+
         debut: ALBUM_COLORS.DEBUT,
         fearless: ALBUM_COLORS.FEARLESS,
         speaknow: ALBUM_COLORS.SPEAK_NOW,
@@ -38,6 +40,7 @@ export default {
       },
       animation: {
         glitter: "glitter 10s infinite",
+        "glitter-slow": "glitter 30s infinite",
         "glitter-bg-slow": "glitter-bg 30s infinite",
       },
       keyframes: {
