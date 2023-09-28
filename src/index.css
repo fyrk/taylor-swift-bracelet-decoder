@@ -6,4 +6,8 @@
   :root {
     color-scheme: dark;
   }
+
+  ::-webkit-search-cancel-button {
+    cursor: pointer;
+  }
 }

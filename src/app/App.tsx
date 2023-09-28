@@ -56,7 +56,7 @@ export default function App() {
               Enter letters to find matching song titles and lyrics
             </div>
             <input
-              type="text"
+              type="search"
               autofocus
               spellcheck={false}
               enterkeyhint="done"
