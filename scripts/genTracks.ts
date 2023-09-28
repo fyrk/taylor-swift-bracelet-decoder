@@ -1,6 +1,6 @@
 import * as fs from "fs"
 import FuseModule from "fuse.js"
-import { parseTracks } from "../src/tracksearch.ts"
+import { parseTracks } from "../src/app/trackutils.js"
 import LYRICS from "./run/lyrics.json" assert { type: "json" }
 import _TRACKS_BY_ALBUM from "./tracks.json" assert { type: "json" }
 
