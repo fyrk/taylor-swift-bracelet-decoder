@@ -1,6 +1,8 @@
 import * as fs from "fs"
 import FuseModule from "fuse.js"
+import LYRICS from "./run/lyrics.json" assert { type: "json" }
 import _TRACKS_BY_ALBUM from "./tracks.json" assert { type: "json" }
+
 const Fuse = FuseModule as unknown as typeof FuseModule.default
 
 function isAlpha(string: string) {
@@ -30,7 +32,6 @@ function getLetters(
       // ATW*T*MV
       letters += "T"
       indices.push([i - 1, i])
-      console.log([i - 1, i])
     } else if (
       isAlpha(letter) &&
       (prev == null ||
@@ -75,10 +76,24 @@ const TRACKS = _TRACKS_BY_ALBUM
           }
         }
       }
+
+      let lyrics = LYRICS[album.id] && LYRICS[album.id][title]
+      let lyricsLetters: string | null = null
+      let lyricsLettersIndices: Array<number | number[]> | null = null
+      if (lyrics) {
+        lyrics = lyrics.replace(/[",]/g, " ").replace(/\s+/g, " ").toLowerCase()
+        ;[lyricsLetters, lyricsLettersIndices] = getLetters(lyrics)
+      } else {
+        lyrics = null
+      }
+
       return {
         title,
         titleLetters,
         titleLettersIndices,
+        lyrics,
+        lyricsLetters,
+        lyricsLettersIndices,
         albumId: album.id,
       }
     }),
@@ -93,8 +108,26 @@ const handleError = err => {
   console.log("File has been created")
 }
 
-fs.writeFile("../src/tracks.json", JSON.stringify(TRACKS, null, 2), handleError)
+fs.writeFile("../src/tracks.json", JSON.stringify(TRACKS), handleError)
+fs.writeFile(
+  "./run/tracks.pretty.json",
+  JSON.stringify(
+    TRACKS.map(t => ({
+      title: t.title,
+      titleLetters: t.titleLetters,
+      lyrics: t.lyrics,
+      lyricsLetters: t.lyricsLetters,
+      albumId: t.albumId,
+    })),
+    null,
+    2,
+  ),
+  handleError,
+)
 
-const index = Fuse.createIndex(["title", "titleLetters"], TRACKS)
+const index = Fuse.createIndex(
+  ["title", "titleLetters", "lyricsLetters"],
+  TRACKS,
+)
 
 fs.writeFile("../src/tracks_index.json", JSON.stringify(index), handleError)

@@ -4,9 +4,11 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm --experimental-specifier-resolution node index.ts"
+    "genTracks": "node --loader ts-node/esm --experimental-specifier-resolution node genTracks.ts",
+    "fetchLyrics": "node --loader ts-node/esm --experimental-specifier-resolution node fetchLyrics.ts"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "fuse.js": "^6.6.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"

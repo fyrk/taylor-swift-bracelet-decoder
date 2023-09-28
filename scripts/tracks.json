@@ -94,6 +94,7 @@
   {
     "name": "Christmas Tree Farm (Old Timey Version)",
     "id": "christmas-tree-farm-otv",
+    "lyrics": false,
     "tracks": ["Christmas Tree Farm (Old Timey Version)"]
   },
   {
@@ -135,6 +136,7 @@
   {
     "name": "All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios",
     "id": "atw-sgav",
+    "lyrics": false,
     "tracks": [
       "All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios"
     ]
@@ -142,6 +144,7 @@
   {
     "name": "All Too Well (10 Minute Version) (The Short Film)",
     "id": "atv-tmvtsf",
+    "lyrics": false,
     "tracks": ["All Too Well (10 Minute Version) (The Short Film)"]
   },
   {
@@ -341,6 +344,7 @@
   {
     "name": "Sweeter Than Fiction",
     "id": "sweeter-than-fiction",
+    "lyrics": false,
     "tracks": ["Sweeter Than Fiction - From \"One Chance\" Soundtrack"]
   },
   { "name": "Speak Now", "id": "speak-now", "tracks": ["Better Than Revenge"] },
@@ -359,6 +363,7 @@
   {
     "name": "Live From Clear Channel Stripped 2008",
     "id": "live-from-clear-channel-stripped-2008",
+    "lyrics": false,
     "tracks": ["Beautiful Eyes - Live From Clear Channel Stripped 2008"]
   },
   {
