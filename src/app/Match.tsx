@@ -103,6 +103,8 @@ export default function Match({
   // LYRICS MATCHES
   let lyricsElem = null
   let fullLyricsElem = null
+  let lyricsIsFromStart = false
+  let lyricsIsToEnd = false
   let lyricsIsExact = false
   if (lyricsMatches.length > 0) {
     const queryStart = match.item.lyricsLetters.indexOf(query)
@@ -156,6 +158,10 @@ export default function Match({
       indices[indices.length - 1][1] + 3,
       match.item.lyricsWords.length - 1,
     )
+
+    lyricsIsFromStart = firstIndex === 0
+    lyricsIsToEnd = lastIndex === match.item.lyricsWords.length - 1
+
     highlightLetterMatches(
       addLyrics.bind(null, lyricsElem),
       indices.map(
@@ -208,6 +214,8 @@ export default function Match({
                 <MatchLyrics
                   lyrics={lyricsElem}
                   fullLyrics={fullLyricsElem}
+                  isCollapsedFromStart={lyricsIsFromStart}
+                  isCollapsedFromEnd={lyricsIsToEnd}
                   key={match.item.title}
                 />
               </div>
@@ -231,17 +239,28 @@ export default function Match({
   )
 }
 
-function MatchLyrics({ lyrics, fullLyrics }: { lyrics; fullLyrics }) {
+function MatchLyrics({
+  lyrics,
+  fullLyrics,
+  isCollapsedFromStart,
+  isCollapsedFromEnd,
+}) {
   const [expanded, setExpanded] = useState(false)
   return (
-    <>
-      <span class="mr-1">{expanded ? fullLyrics : lyrics} </span>
-      <button
-        class="text-neutral-300 hover:text-neutral-500"
-        onClick={() => setExpanded(!expanded)}
-      >
-        {expanded ? "LESS" : "MORE"}
+    <span
+      class="group"
+      onClick={() =>
+        document.getSelection().type !== "Range" && setExpanded(!expanded)
+      }
+    >
+      <span class="mr-3">
+        {!isCollapsedFromStart && !expanded && "… "}
+        {expanded ? fullLyrics : lyrics}
+        {!isCollapsedFromEnd && !expanded && " …"}{" "}
+      </span>
+      <button class="text-neutral-200 group-hover:text-neutral-300 group-hover:underline">
+        {expanded ? "View Match" : "View All"}
       </button>
-    </>
+    </span>
   )
 }

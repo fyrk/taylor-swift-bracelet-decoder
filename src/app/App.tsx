@@ -100,7 +100,7 @@ export default function App() {
           {results && (
             <div class="mb-8 mt-4 px-5">
               {results.results.map((match, i) => (
-                <Match match={match} query={""} key={i} />
+                <Match match={match} query={results.query} key={i} />
               ))}
             </div>
           )}
