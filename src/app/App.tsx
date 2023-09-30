@@ -1,9 +1,12 @@
+import { HeartIcon } from "@heroicons/react/24/solid"
+import sync from "css-animation-sync"
 import Fuse from "fuse.js"
 import { debounce } from "lodash"
 import { useCallback, useEffect, useState } from "preact/hooks"
 import _TRACKS from "../tracks.json"
 import TRACK_INDEX from "../tracks_index.json"
 import Match from "./Match"
+import ShareButton from "./ShareButton"
 import { GlitterColor, GlitterLetters } from "./glitter"
 import { parseTracks } from "./trackutils"
 
@@ -32,12 +35,15 @@ const TRACKS_FUSE = new Fuse(
 
 const search = (query: string) => {
   const results = TRACKS_FUSE.search(query, { limit: 8 })
-  console.log("matches", results)
   if (results.length === 0) return null
   return { query, results }
 }
 
 export default function App() {
+  useEffect(() => {
+    sync("glitter-bg", "glitter")
+  }, [])
+
   const [query, setQuery] = useState(window.location.hash.slice(1))
 
   const [results, setResults] = useState<{
@@ -47,7 +53,6 @@ export default function App() {
 
   const debouncedSearch = useCallback(
     debounce(query => {
-      console.log("searching", query)
       history.replaceState(null, "", query ? "#" + query.toUpperCase() : " ")
       setResults(search(query))
     }),
@@ -68,44 +73,44 @@ export default function App() {
           <GlitterLetters text="hey kids, spelling is fun!" />
         </div>
         <div class="mx-auto mt-8 max-w-lg p-2 sm:mt-10">
-          <label>
+          <label class="w-full">
             <div class="mb-4 text-lg text-neutral-400 sm:text-xl">
               Enter letters to find matching song titles and lyrics
             </div>
-            <input
-              type="search"
-              value={query}
-              autofocus
-              autocapitalize="characters"
-              autocomplete="off"
-              autocorrect="off"
-              spellcheck={false}
-              enterkeyhint="done"
-              class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
-              onInput={e => setQuery(e.currentTarget.value)}
-              onKeyUp={e => e.key === "Enter" && e.currentTarget.blur()}
-            />
+
+            <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
+              <input
+                type="search"
+                value={query}
+                autofocus
+                autocapitalize="characters"
+                autocomplete="off"
+                autocorrect="off"
+                spellcheck={false}
+                enterkeyhint="done"
+                class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
+                onInput={e => setQuery(e.currentTarget.value)}
+                onKeyUp={e => e.key === "Enter" && e.currentTarget.blur()}
+              />
+
+              <div class="lg:mr-[-100%]">{results && <ShareButton />}</div>
+            </div>
           </label>
-          <div class="mb-8 mt-9 px-5">
-            {results &&
-              results.results.map((match, i) => (
+
+          {results && (
+            <div class="mb-8 mt-4 px-5">
+              {results.results.map((match, i) => (
                 <Match match={match} query={""} key={i} />
               ))}
-          </div>
+            </div>
+          )}
         </div>
       </div>
 
       <footer class="mt-16 shrink pb-10 text-center">
         Made with{" "}
         <GlitterColor slow={true} randomStart={false}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="inline-block h-6 w-6"
-          >
-            <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
-          </svg>
+          <HeartIcon class="inline h-6 w-6" />
           <span class="text-body"> by </span>
           <a
             class="hover:underline"
