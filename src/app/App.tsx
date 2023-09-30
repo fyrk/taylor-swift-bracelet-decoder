@@ -3,6 +3,7 @@ import sync from "css-animation-sync"
 import Fuse from "fuse.js"
 import { debounce } from "lodash"
 import { useCallback, useEffect, useState } from "preact/hooks"
+import { PlausibleEvent, trackPlausibleEvent } from "../helpers/plausible"
 import _TRACKS from "../tracks.json"
 import TRACK_INDEX from "../tracks_index.json"
 import Match from "./Match"
@@ -44,8 +45,8 @@ export default function App() {
     sync("glitter-bg", "glitter")
   }, [])
 
+  const [hasEntered, setHasEntered] = useState(false)
   const [query, setQuery] = useState(window.location.hash.slice(1))
-
   const [results, setResults] = useState<{
     results: FuseResult[]
     query: string
@@ -89,7 +90,13 @@ export default function App() {
                 spellcheck={false}
                 enterkeyhint="done"
                 class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
-                onInput={e => setQuery(e.currentTarget.value)}
+                onInput={e => {
+                  setQuery(e.currentTarget.value)
+                  if (!hasEntered) {
+                    setHasEntered(true)
+                    trackPlausibleEvent(PlausibleEvent.EnterQuery)
+                  }
+                }}
                 onKeyUp={e => e.key === "Enter" && e.currentTarget.blur()}
               />
 

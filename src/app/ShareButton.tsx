@@ -1,6 +1,7 @@
 import { CheckIcon, ShareIcon } from "@heroicons/react/20/solid"
 import { ClipboardIcon } from "@heroicons/react/24/outline"
 import { useMemo, useState } from "preact/hooks"
+import { PlausibleEvent, trackPlausibleEvent } from "../helpers/plausible"
 
 export default function ShareButton() {
   const [isCopied, setIsCopied] = useState(false)
@@ -30,6 +31,9 @@ export default function ShareButton() {
             setTimeout(() => setIsCopied(false), 750)
           })
         }
+        trackPlausibleEvent(PlausibleEvent.Share, {
+          props: { type: canShare ? "share" : "copy" },
+        })
       }}
     >
       <div class="flex items-center gap-1 lg:flex-col lg:gap-0">

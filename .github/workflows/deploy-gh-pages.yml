@@ -39,6 +39,9 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+        env:
+          VITE_PLAUSIBLE_DOMAIN: ${{ vars.VITE_PLAUSIBLE_DOMAIN }}
+          VITE_PLAUSIBLE_API_HOST: ${{ vars.VITE_PLAUSIBLE_API_HOST }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
