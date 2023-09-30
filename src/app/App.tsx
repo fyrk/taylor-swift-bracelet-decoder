@@ -1,5 +1,6 @@
 import Fuse from "fuse.js"
-import { useState } from "preact/hooks"
+import { debounce } from "lodash"
+import { useCallback, useEffect, useState } from "preact/hooks"
 import _TRACKS from "../tracks.json"
 import TRACK_INDEX from "../tracks_index.json"
 import Match from "./Match"
@@ -30,16 +31,32 @@ const TRACKS_FUSE = new Fuse(
 )
 
 const search = (query: string) => {
-  const matches = TRACKS_FUSE.search(query, { limit: 8 })
-  if (matches.length === 0) return null
-  return { matches, query }
+  const results = TRACKS_FUSE.search(query, { limit: 8 })
+  console.log("matches", results)
+  if (results.length === 0) return null
+  return { query, results }
 }
 
 export default function App() {
+  const [query, setQuery] = useState(window.location.hash.slice(1))
+
   const [results, setResults] = useState<{
-    matches: FuseResult[]
+    results: FuseResult[]
     query: string
   }>(null)
+
+  const debouncedSearch = useCallback(
+    debounce(query => {
+      console.log("searching", query)
+      history.replaceState(null, "", query ? "#" + query.toUpperCase() : " ")
+      setResults(search(query))
+    }),
+    [debounce, setResults, search],
+  )
+
+  useEffect(() => {
+    debouncedSearch(query)
+  }, [query])
 
   return (
     <div class="flex h-full flex-col p-3 text-center sm:p-5">
@@ -57,24 +74,25 @@ export default function App() {
             </div>
             <input
               type="search"
+              value={query}
               autofocus
               spellcheck={false}
               enterkeyhint="done"
               class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
-              onInput={e => setResults(search(e.currentTarget.value))}
+              onInput={e => setQuery(e.currentTarget.value)}
               onKeyUp={e => e.key === "Enter" && e.currentTarget.blur()}
             />
           </label>
           <div class="mb-8 mt-9 px-5">
             {results &&
-              results.matches.map((match, i) => (
-                <Match match={match} query={results.query} key={i} />
+              results.results.map((match, i) => (
+                <Match match={match} query={""} key={i} />
               ))}
           </div>
         </div>
       </div>
 
-      <footer class="mt-16 shrink pb-4 text-center">
+      <footer class="mt-16 shrink pb-10 text-center">
         Made with{" "}
         <GlitterColor slow={true} randomStart={false}>
           <svg
