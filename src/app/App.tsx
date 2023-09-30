@@ -76,6 +76,9 @@ export default function App() {
               type="search"
               value={query}
               autofocus
+              autocapitalize="characters"
+              autocomplete="off"
+              autocorrect="off"
               spellcheck={false}
               enterkeyhint="done"
               class="w-full animate-glitter-bg-slow appearance-none rounded-2xl border-4 p-4 font-slab text-2xl uppercase tracking-widest focus:outline-none"
