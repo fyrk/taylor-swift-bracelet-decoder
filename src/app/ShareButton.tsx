@@ -17,7 +17,12 @@ export default function ShareButton() {
         navigator.share &&
         navigator.canShare({ url: url.href }),
     ]
-  }, [window.location, navigator.canShare, navigator.share])
+  }, [
+    window.location.search,
+    window.location.href,
+    navigator.canShare,
+    navigator.share,
+  ])
 
   return (
     <button
