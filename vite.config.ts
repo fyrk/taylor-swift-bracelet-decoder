@@ -9,6 +9,4 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
   },
-  // needed for GitHub Pages
-  base: "/taylor-swift-bracelet-decoder/",
 })
