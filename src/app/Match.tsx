@@ -132,7 +132,10 @@ export default function Match({
       const groups = []
       let group = []
       let prevEnd = -1
-      for (let [start, end] of lyricsMatches[0].indices) {
+
+      for (let [start, end] of [...lyricsMatches[0].indices].sort(
+        (a, b) => a[0] - b[0],
+      )) {
         if (start > prevEnd + 2) {
           groups.push(group)
           group = []
