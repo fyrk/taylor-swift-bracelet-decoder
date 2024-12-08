@@ -1,5 +1,81 @@
 [
   {
+    "name": "The Tortured Poets Department: The Anthology",
+    "id": "ttpd-anthology",
+    "tracks": [
+      "The Black Dog",
+      "imgonnagetyouback",
+      "The Albatross",
+      "Chloe or Sam or Sophia or Marcus",
+      "How Did It End?",
+      "So High School",
+      "I Hate It Here",
+      "thanK you aIMee",
+      "I Look in People's Windows",
+      "The Prophecy",
+      "Cassandra",
+      "Peter",
+      "The Bolter",
+      "Robin",
+      "The Manuscript"
+    ]
+  },
+  {
+    "name": "The Tortured Poets Department",
+    "id": "ttpd",
+    "tracks": [
+      "Fortnight (feat. Post Malone)",
+      "The Tortured Poets Department",
+      "My Boy Only Breaks His Favorite Toys",
+      "Down Bad",
+      "So Long, London",
+      "But Daddy I Love Him",
+      "Fresh Out The Slammer",
+      "Florida!!! (feat. Florence + The Machine)",
+      "Guilty as Sin?",
+      "Who’s Afraid of Little Old Me?",
+      "I Can Fix Him (No Really I Can)",
+      "loml",
+      "I Can Do It With a Broken Heart",
+      "The Smallest Man Who Ever Lived",
+      "The Alchemy",
+      "Clara Bow"
+    ]
+  },
+  {
+    "name": "You're Losing Me (From The Vault)",
+    "id": "youre-losing-me",
+    "tracks": ["You're Losing Me (From The Vault)"]
+  },
+  {
+    "name": "1989 (Taylor's Version)",
+    "id": "1989-tv",
+    "tracks": [
+      "Welcome To New York (Taylor's Version)",
+      "Blank Space (Taylor's Version)",
+      "Style (Taylor's Version)",
+      "Out Of The Woods (Taylor's Version)",
+      "All You Had To Do Was Stay (Taylor's Version)",
+      "Shake It Off (Taylor's Version)",
+      "I Wish You Would (Taylor's Version)",
+      "Bad Blood (Taylor's Version)",
+      "Wildest Dreams (Taylor's Version)",
+      "How You Get The Girl (Taylor's Version)",
+      "This Love (Taylor\u2019s Version)",
+      "I Know Places (Taylor's Version)",
+      "Clean (Taylor's Version)",
+      "Wonderland (Taylor's Version)",
+      "You Are In Love (Taylor's Version)",
+      "New Romantics (Taylor's Version)",
+      "\"Slut!\" (Taylor's Version) (From The Vault)",
+      "Say Don't Go (Taylor's Version) (From The Vault)",
+      "Now That We Don't Talk (Taylor's Version) (From The Vault)",
+      "Suburban Legends (Taylor's Version) (From The Vault)",
+      "Is It Over Now? (Taylor's Version) (From The Vault)",
+      "Bad Blood (feat. Kendrick Lamar) (Taylor's Version)"
+    ]
+  },
+  {
     "name": "Speak Now (Taylor's Version)",
     "id": "speak-now-tv",
     "tracks": [
@@ -82,11 +158,6 @@
     ]
   },
   {
-    "name": "This Love (Taylor\u2019s Version)",
-    "id": "this-love-tv",
-    "tracks": ["This Love (Taylor\u2019s Version)"]
-  },
-  {
     "name": "The Joker And The Queen (feat. Taylor Swift)",
     "id": "the-joker-and-the-queen",
     "tracks": ["The Joker And The Queen (feat. Taylor Swift)"]
@@ -158,11 +229,6 @@
     "name": "Eyes Open (Taylor's Version)",
     "id": "eyes-open-tv",
     "tracks": ["Eyes Open (Taylor's Version)"]
-  },
-  {
-    "name": "Wildest Dreams (Taylor's Version)",
-    "id": "wildest-dreams-tv",
-    "tracks": ["Wildest Dreams (Taylor's Version)"]
   },
   {
     "name": "How Long Do You Think It's Gonna Last?",
@@ -318,28 +384,6 @@
     "name": "reputation Stadium Tour Surprise Song Playlist",
     "id": "reputation-stadium-tour-surprise-song-playlist",
     "tracks": ["I Don\u2019t Wanna Live Forever (Fifty Shades Darker)"]
-  },
-  {
-    "name": "1989",
-    "id": "1989",
-    "tracks": [
-      "Welcome To New York",
-      "Blank Space",
-      "Style",
-      "Out Of The Woods",
-      "All You Had To Do Was Stay",
-      "Shake It Off",
-      "I Wish You Would",
-      "Bad Blood",
-      "How You Get The Girl",
-      "I Know Places",
-      "Clean"
-    ]
-  },
-  {
-    "name": "Bad Blood",
-    "id": "bad-blood-kendrick-lamar",
-    "tracks": ["Bad Blood (feat. Kendrick Lamar)"]
   },
   {
     "name": "Sweeter Than Fiction",
